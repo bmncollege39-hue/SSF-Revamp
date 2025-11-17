@@ -3,7 +3,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 const Header = () => {
   return (
-    <div className='flex w-7xl  items-center justify-between h-20'>
+    <div className='fixed top-2 z-10 flex w-6xl items-center justify-between h-20'>
         <a href="#home">
             <img src="logo.svg" alt="logo" />
         </a>
