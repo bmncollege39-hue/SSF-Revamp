@@ -164,7 +164,7 @@ export default function Home() {
             >
               <img src={peopleImgIcon} className="w-10" alt="" />
               <div>
-                <p className="text-3xl font-bold text-blue-500">50,000</p>
+                <p className="text-3xl font-black text-blue-700">50,000</p>
                 <p className="font-medium text-lg">Lives Impacted</p>
               </div>
             </motion.div>
@@ -175,7 +175,7 @@ export default function Home() {
             >
               <img src={trustImgIcon} className="w-10" alt="" />
               <div>
-                <p className="text-3xl font-bold text-blue-500">15,000</p>
+                <p className="text-3xl font-black text-blue-700">15,000</p>
                 <p className="font-medium text-lg">Beneficiaries</p>
               </div>
             </motion.div>
@@ -186,7 +186,7 @@ export default function Home() {
             >
               <img src={approvedImgIcon} className="w-10" alt="" />
               <div>
-                <p className="text-3xl font-bold text-blue-500">100+</p>
+                <p className="text-3xl font-black text-blue-700">100+</p>
                 <p className="font-medium text-lg">Programs Conducted</p>
               </div>
             </motion.div>
