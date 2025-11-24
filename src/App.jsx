@@ -5,6 +5,7 @@ import Getinvolved from './components/GetInvolved'
 import Aboutus from './components/Aboutus'
 import KeyFocus from './pages/KeyFocus'
 import Team from './pages/Team'
+import Collabrations from './pages/Collabrations'
 import Impactstories from './components/ImpactStories'
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
       <KeyFocus />
       <Impactstories></Impactstories>
       <Team />
+
+      <Collabrations />
 
     </div>
   )
