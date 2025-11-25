@@ -1,37 +1,39 @@
-import React from 'react'
-import Header from './components/Header'
-import Home from './pages/Home'
-import Getinvolved from './components/GetInvolved'
-import Aboutus from './components/Aboutus'
-import KeyFocus from './pages/KeyFocus'
-import Team from './pages/Team'
-import Collabrations from './pages/Collabrations'
-import Impactstories from './components/ImpactStories'
-import ProgressSection from "./pages/ProgressSection"
-import Supportour from './components/Supportour'
+import React from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Getinvolved from "./components/GetInvolved";
+import Aboutus from "./components/Aboutus";
+import KeyFocus from "./pages/KeyFocus";
+import Team from "./pages/Team";
+import Collabrations from "./pages/Collabrations";
+import Impactstories from "./components/ImpactStories";
+import ProgressSection from "./pages/ProgressSection";
+import Supportour from "./components/Supportour";
 
 const App = () => {
   return (
-    <div className='min-h-screen w-full flex justify-start flex-col items-center font-inria  overflow-x-hidden'>
+    <div className="min-h-screen w-full flex justify-start flex-col items-center font-inria  overflow-x-hidden">
       {/* Header Page */}
-      <Header/>
+      <Header />
       {/* Home Page */}
-      <Home/>
+      <Home />
       {/* Get Involved Page */}
-      <Getinvolved/>
+      <Getinvolved />
       {/* About us Page */}
-      <Aboutus/>
+      <Aboutus />
       {/* Key focus Page */}
       <KeyFocus />
       {/* impact Page */}
-      <Impactstories/>\
-      {/* team Page */}
+      <Impactstories />\{/* team Page */}
       <Team />
       {/* Collab Page */}
       <Collabrations />
-
+      {/* progress Page */}
+      <ProgressSection />
+      {/* support Page */}
+      <Supportour />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
