@@ -158,7 +158,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full min-h-56 md:min-h-96 overflow-hidden flex items-center justify-center">
+      <div className="w-full min-h-36 md:min-h-76 overflow-hidden flex items-center justify-center">
         <img className="absolute md:-bottom-10 -bottom-2" src="./images/SSF.png" alt="" />
       </div>
     </footer>
