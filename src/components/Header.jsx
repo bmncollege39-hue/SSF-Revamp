@@ -15,9 +15,9 @@ const Header = () => {
     <div className="fixed top-0 left-0 right-0 z-20 flex justify-center  bg-white/60 backdrop-blur-lg border-b-2 border-neutral-200">
       <div className="w-6xl flex items-center justify-between h-20 px-4  xl:px-0">
         {/* Logo */}
-        <a href="/">
+        <Link to="/">
           <img src="logo.svg" alt="logo" className="w-12" />
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden relative md:flex items-center gap-10 text-lg uppercase font-semibold">
