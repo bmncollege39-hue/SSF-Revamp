@@ -2,9 +2,9 @@ import image1 from "../assets/image1.png";
 
 function Aboutus() {
   return (
-    <div className="relative min-h-screen w-full bg-[url(./assets/grid.svg)] bg-contain mt-10 px-4">
+    <div  className="relative min-h-screen w-full bg-[url(./assets/grid.svg)] bg-contain mt-10 px-4">
 
-      <div className="relative pt-20 pb-20 w-full bg-gradient-to-t from-white/0 via-white to-white flex flex-col items-center">
+      <div id="about" className="relative pt-20 pb-20 w-full bg-gradient-to-t from-white/0 via-white to-white flex flex-col items-center">
 
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl  font-semibold italic mt-5 text-center">

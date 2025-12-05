@@ -11,25 +11,26 @@ const Header = () => {
       <div className="w-6xl flex items-center justify-between h-20 px-4  xl:px-0">
 
         {/* Logo */}
-        <a href="#home">
+        <a href="/">
           <img src="logo.svg" alt="logo" className="w-12" />
         </a>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-10 text-lg uppercase font-semibold">
-          <li className="cursor-pointer hover:bg-gray-100 px-2 rounded">
-            <Link to="/Home">Home</Link>
+          <li className="cursor-pointer hover:bg-gray-300 px-2 rounded">
+            <Link to="/">Home</Link>
           </li>
-          <li className="cursor-pointer hover:bg-gray-100 px-2 rounded">
-            <Link to="/About">About Us</Link>
+          <li className="cursor-pointer hover:bg-gray-300 px-2 rounded">
+            <a href="#about">About Us</a>
           </li>
-          <li className="cursor-pointer hover:bg-gray-100 px-2 rounded">
-            <Link to="/Campaign">Campaign</Link>
-          </li>
-          <li className="cursor-pointer hover:bg-gray-100 px-2 rounded">
+
+          <li className="cursor-pointer hover:bg-gray-300 px-2 rounded">
             <a href="#join-us">Join Us</a>
           </li>
-          <li className="flex items-center gap-1 cursor-pointer hover:bg-gray-100 px-2 rounded">
+           <li className="cursor-pointer hover:bg-gray-300 px-2 rounded">
+            <Link to="/Campaign">Campaign</Link>
+          </li>
+          <li className="flex items-center gap-1 cursor-pointer hover:bg-gray-300 px-2 rounded">
             More <IoIosArrowDown />
           </li>
         </ul>

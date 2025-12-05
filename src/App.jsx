@@ -26,7 +26,7 @@ const App = () => {
       <Routes>
         {/* Home Page (All sections) */}
         <Route
-          path="/Home"
+          path="/"
           element={
             <>
               <Home />
@@ -44,8 +44,16 @@ const App = () => {
           }
         />
 
-        {/* About Detailed Page */}
-        <Route path="/Campaign" element={<AbtDetailed />} />
+        {/* About Detailed/Campaign Page */}
+        <Route
+          path="/Campaign"
+          element={
+            <>
+              <AbtDetailed />
+              <FooterSection />
+            </>
+          }
+        />
       </Routes>
     </div>
   );

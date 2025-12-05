@@ -2,7 +2,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function Getinvolved() {
   return (
-    <div className="min-h-screen w-full flex flex-col items-center py-6 px-4">
+    <div id="join-us" className="min-h-screen w-full flex flex-col items-center py-6 px-4">
       {/* Heading */}
       <h1 className="text-3xl md:text-4xl font-semibold italic mt-10 text-center">
         Get Involved - Swastik Srijan Foundation

@@ -4,12 +4,12 @@ import ABFrame2 from "../assets/ABFrame3.png";
 import ABFrame3 from "../assets/ABFrame4.png";
 import ABFrame4 from "../assets/ABFrame5.png";
 import ABFrame5 from "../assets/ABFrame6.png";
-import { IoIosArrowForward } from "react-icons/io";
+
 import { IoIosCheckmarkCircle } from "react-icons/io";
 function AbtDetailed() {
     return (
-        <div className="w-full flex flex-col items-center justify-center py-14 px-4 mt-10">
-            <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="w-full  flex flex-col gap-10 md:gap-2 items-center justify-center py-14 px-4 mt-10">
+            <div className="max-w-6xl py-10 w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div>
                     <span className="bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium">
                         Education
@@ -44,7 +44,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-contain"
+                        className=" shadow-xl w-full object-contain"
                     />
                 </div>
             </div>
@@ -54,7 +54,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame1}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-contain"
+                        className=" shadow-xl w-full object-contain"
                     />
                 </div>
                 <div>
@@ -91,7 +91,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame1}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-contain"
+                        className=" shadow-xl w-full object-contain"
                     />
                 </div>
             </div>
@@ -130,7 +130,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame2}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-cover"
+                        className=" shadow-xl w-full object-cover"
                     />
                 </div>
             </div>
@@ -140,7 +140,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame3}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-cover"
+                        className=" shadow-xl w-full object-cover"
                     />
                 </div>
                 <div>
@@ -177,7 +177,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame3}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-cover"
+                        className=" shadow-xl w-full object-cover"
                     />
                 </div>
             </div>
@@ -218,7 +218,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame4}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-cover"
+                        className=" shadow-xl w-full object-cover"
                     />
                 </div>
             </div>
@@ -228,7 +228,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame5}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-cover"
+                        className=" shadow-xl w-full object-cover"
                     />
                 </div>
                 <div>
@@ -265,7 +265,7 @@ function AbtDetailed() {
                     <img
                         src={ABFrame5}
                         alt="Children studying"
-                        className="rounded-lg shadow-xl w-full object-cover"
+                        className=" shadow-xl w-full object-cover"
                     />
                 </div>
             </div>
