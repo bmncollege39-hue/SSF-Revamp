@@ -17,6 +17,7 @@ import FAQSection from "./pages/FAQSection";
 import ScrollToTop from "./components/Scrolltotop";
 import AbtDetailed from "./components/AboutDetailed";
 import DonateAndSupport from "./pages/DonateAndSupport";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
@@ -62,6 +63,16 @@ const App = () => {
         element={
           <>
           <DonateAndSupport/>
+          <FooterSection/>
+          </>
+        }
+        />
+        {/* Blog */}
+         <Route
+        path="/Blog"
+        element={
+          <>
+          <Blog/>
           <FooterSection/>
           </>
         }
