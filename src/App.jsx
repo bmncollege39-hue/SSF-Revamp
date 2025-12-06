@@ -18,6 +18,7 @@ import ScrollToTop from "./components/Scrolltotop";
 import AbtDetailed from "./components/AboutDetailed";
 import DonateAndSupport from "./pages/DonateAndSupport";
 import Blog from "./pages/Blog";
+import MediaGallery from "./pages/MediaGallery";
 
 const App = () => {
   return (
@@ -73,6 +74,16 @@ const App = () => {
         element={
           <>
           <Blog/>
+          <FooterSection/>
+          </>
+        }
+        />
+        {/* Media Gallery */}
+         <Route
+        path="/Media"
+        element={
+          <>
+          <MediaGallery />
           <FooterSection/>
           </>
         }
